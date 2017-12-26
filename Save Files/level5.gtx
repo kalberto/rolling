@@ -1,0 +1,41 @@
+<OBJECT> plataforma
+<X> 0
+<Y> 250
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 100
+<Y> 350
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 200
+<Y> 450
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 300
+<Y> 500
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 450
+<Y> 500
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 600
+<Y> 500
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 750
+<Y> 500
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 900
+<Y> 500
+<ANGULO> 0
+
+.

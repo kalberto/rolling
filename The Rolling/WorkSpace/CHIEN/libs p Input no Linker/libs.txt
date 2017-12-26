@@ -1,0 +1,7 @@
+lua5.1.lib
+lua51.lib
+SDL.lib
+SDLmain.lib
+SDL_image.lib
+SDL_mixer.lib
+opengl32.lib

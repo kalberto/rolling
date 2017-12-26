@@ -1,0 +1,91 @@
+<OBJECT> plataforma
+<X> 0
+<Y> 200
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 100
+<Y> 300
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 200
+<Y> 400
+<ANGULO> 45
+
+<OBJECT> plataforma
+<X> 300
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 400
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 550
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 700
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 850
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 1000
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 800
+<Y> 300
+<ANGULO> 90
+
+<OBJECT> plataforma
+<X> 800
+<Y> 400
+<ANGULO> 90
+
+<OBJECT> plataforma
+<X> 350
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 800
+<Y> 550
+<ANGULO> 90
+
+<OBJECT> plataforma
+<X> 750
+<Y> 100
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 600
+<Y> 100
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 450
+<Y> 100
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 0
+<Y> 450
+<ANGULO> 0
+
+<OBJECT> plataforma
+<X> 300
+<Y> 100
+<ANGULO> 0
+
+.

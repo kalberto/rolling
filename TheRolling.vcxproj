@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Background.cpp" />
+    <ClCompile Include="src\Bola.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\ConfigsButton.cpp" />
+    <ClCompile Include="src\EndLevel.cpp" />
+    <ClCompile Include="src\Estado_Jogo.cpp" />
+    <ClCompile Include="src\Fase.cpp" />
+    <ClCompile Include="src\Fisica.cpp" />
+    <ClCompile Include="src\Hud.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\Jogo.cpp" />
+    <ClCompile Include="src\LevelEditor.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\MenuFasesEditor.cpp" />
+    <ClCompile Include="src\Menu_inicial.cpp" />
+    <ClCompile Include="src\Menu_niveis.cpp" />
+    <ClCompile Include="src\Mola.cpp" />
+    <ClCompile Include="src\MyMouse.cpp" />
+    <ClCompile Include="src\PlayStop.cpp" />
+    <ClCompile Include="src\ResetLevelButton.cpp" />
+    <ClCompile Include="src\Save.cpp" />
+    <ClCompile Include="src\SaveButton.cpp" />
+    <ClCompile Include="src\VideoModeConfig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\Animator.h" />
+    <ClInclude Include="src\AQueue.h" />
+    <ClInclude Include="src\Array.h" />
+    <ClInclude Include="src\AStack.h" />
+    <ClInclude Include="src\Background.h" />
+    <ClInclude Include="src\Bola.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Colisao.h" />
+    <ClInclude Include="src\ConfigsButton.h" />
+    <ClInclude Include="src\DlinkedList.h" />
+    <ClInclude Include="src\EndLevel.h" />
+    <ClInclude Include="src\Estado_Jogo.h" />
+    <ClInclude Include="src\Fase.h" />
+    <ClInclude Include="src\Fisica.h" />
+    <ClInclude Include="src\HashTable.h" />
+    <ClInclude Include="src\Hud.h" />
+    <ClInclude Include="src\Includes.h" />
+    <ClInclude Include="src\Iniciar_Finalizar.h" />
+    <ClInclude Include="src\Item.h" />
+    <ClInclude Include="src\Jogo.h" />
+    <ClInclude Include="src\LevelEditor.h" />
+    <ClInclude Include="src\LQueue.h" />
+    <ClInclude Include="src\LStack.h" />
+    <ClInclude Include="src\MenuFasesEditor.h" />
+    <ClInclude Include="src\Menu_inicial.h" />
+    <ClInclude Include="src\Menu_niveis.h" />
+    <ClInclude Include="src\Mola.h" />
+    <ClInclude Include="src\MyMouse.h" />
+    <ClInclude Include="src\PlayStop.h" />
+    <ClInclude Include="src\ResetLevelButton.h" />
+    <ClInclude Include="src\Save.h" />
+    <ClInclude Include="src\SaveButton.h" />
+    <ClInclude Include="src\SlinkedList.h" />
+    <ClInclude Include="src\Verificacoes.h" />
+    <ClInclude Include="src\VideoModeConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Pictures\ico2.ico" />
+    <Image Include="..\..\Pictures\therollinico.ico" />
+    <Image Include="..\..\Pictures\therollinico.png" />
+    <Image Include="icon1.ico" />
+    <Image Include="icon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TheRolling.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E657782-E726-4882-8E62-2ED290248654}</ProjectGuid>
+    <RootNamespace>TheRolling</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)CHIEN\_CHIEN2D\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lua5.1.lib;lua51.lib;SDL.lib;SDLmain.lib;SDL_image.lib;SDL_mixer.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)\CHIEN\_CHIEN2D\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

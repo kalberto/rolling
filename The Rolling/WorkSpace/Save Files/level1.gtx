@@ -1,0 +1,21 @@
+<OBJECT> mola
+<X> 300
+<Y> 200
+
+<OBJECT> mola
+<X> 400
+<Y> 200
+
+<OBJECT> plataforma
+<X> 0
+<Y> 400
+
+<OBJECT> mola
+<X> 700
+<Y> 300
+
+<OBJECT> plataforma
+<X> 300
+<Y> 400
+
+.
